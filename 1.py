@@ -38,7 +38,7 @@ class Company:
         return self.name_c       
     def get_sms_text(self):
         #a=Person(self.person_list[0].get_phone())
-        return f'Отправлено смс на номер:с текстом:Для компании {self.name_c} есть супер предложение!Примите участие в нашем беспроигрышном конкурсе для {self.type_c}'
+        return f'Отправлено смс на номер {?????????}:с текстом:Для компании {self.name_c} есть супер предложение!Примите участие в нашем беспроигрышном конкурсе для {self.type_c}'
         
 c1 = Company('Ромашка','ООО',{'contact':111})
 c2 = Company('Яблочный комбинат','ООО',{'noncontact':111})
@@ -50,5 +50,5 @@ def send_sms():
     k5=p3. get_sms_text()
     return k1,k2,k3,k4,k5
 a=send_sms()
-print(a, sep=',', end='\n')
+print(a, sep=',', end='\n'){?????}
 
